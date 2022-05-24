@@ -1,9 +1,16 @@
-header {
-    font-family: 'Roboto';
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    background-color: #EAC926;
 }
 
 body {
-    background-color: #EAC926;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
 }
 
 p {
@@ -22,7 +29,9 @@ h2 {
 
 .descuentos{
     font-size: 16px;
+    color: #39b54a;
 }
+
 .descripciones{
     font-size: 16px;
 }
@@ -32,13 +41,15 @@ footer {
     text-align: center;
 }
 
+h3 {
+    padding: 10px;
+}
 .burger-menu
 {
     text-align: center;
     border-radius: 10px;
     margin: 10px;
 }
-
 
 .burger-menu i
 {
@@ -53,4 +64,60 @@ footer {
     background-color: white;
     border-radius: 10px;
     margin: auto;
+}
+
+article div
+{
+    margin: 10px;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+main section article{
+    background-color: #fff;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+main {
+    margin: auto;
+    width: 90%;
+    margin: 10px;
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+}
+
+@media (max-width:360px) {
+    .descripciones {
+        display: none;
+    }
+    .site {
+        display: none;
+    }
+}
+@media (min-width:361px) {
+    .burger-menu {
+        display: none;
+    }
+    *{
+        box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
+    }
+}
+
+@media (min-width:769px) {
+    .burger-menu {
+        display: none;
+    }
+    *{
+        box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
+    }
 }
