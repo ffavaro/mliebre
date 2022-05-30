@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto</title>
+    <link href="/css/formProduct.css" rel="stylesheet" />
+</head>
+<body>
+    <header></header>
+    <form action="/new-product" method="post" class="create-form">
+        <div class="control-formulario">
+            <label for="name">Nombre del producto:</label>
+            <input type="text" class="control" name="name" id="name">
+        </div>
+        <div class="control-formulario">
+            <label for="price">Precio producto:</label>
+            <input type="text" class="control" name="price" id="price" placeholder="123.56">
+        </div>
+        <div class="control-formulario">
+            <label for="category">Categoria:</label>
+            <select name="category" id="category" class="control">
+                <option value="hogar">Hogar</option>
+                <option value="electro">Electro</option>
+                <option value="indumentaria">Indumentaria</option>
+            </select>
+        </div>
+        <div class="control-formulario">
+            <label for="city">Ciudad:</label>
+            <select name="city" id="city" class="control">
+                <option value="cba">Cordoba</option>
+                <option value="men">Mendoza</option>
+                <option value="bsas">Buenos Aires</option>
+            </select>
+        </div>
+        <div class="control-formulario">
+            <label for="offer">Esta en oferta</label>
+            <input type="radio" name="offer" id="offer">
+        </div>
+        <div class="control-formulario">
+            <label for="comment">Descripcion del producto</label>
+            <textarea name="comment" id="comment" class="control" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit" name="save" class="button-save" id="save">Guardar</button>
+        <button type="reset" name="reset"  class="button-reset" id="reset">Limpiar</button>
+    </form>
+</body>
+</html>

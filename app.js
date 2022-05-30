@@ -16,3 +16,7 @@ app.get('/', (req, res) =>{
 app.get('/home', (req, res) =>{
     res.sendFile(path.resolve(__dirname, './views/home.html'))
 })
+
+app.get('/newProduct', (req, res) =>{
+    res.sendFile(path.resolve(__dirname, './views/newProduct.html'))
+})
