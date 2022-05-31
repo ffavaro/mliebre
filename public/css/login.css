@@ -1,0 +1,33 @@
+
+body {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+main {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.control-form {
+    display: block;
+    width: 100%;
+    margin: 10px 10px;
+    text-align:center ;
+}
+
+.control-input{
+    width: 80%;
+    padding: 8px 8px;
+}
+
+.control-save {
+    width: 80%;
+    padding: 8px 8px;
+    font-size: 16px;
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+}

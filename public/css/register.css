@@ -1,0 +1,28 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.create-form
+{
+    display: block;
+    width: 100%;
+}
+
+.control-form
+{
+    display: block;
+    width: 100%;
+}
+
+.control-form label
+{
+    display: block;
+}
+
+.control-input
+{
+    width: 100%;
+    padding: 8px 8px;
+}
