@@ -18,6 +18,17 @@ body {
     width: 200px;
 }
 
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
 .copy-header{
     font-weight: 400;
     text-align: center;
